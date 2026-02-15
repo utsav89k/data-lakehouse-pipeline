@@ -71,7 +71,7 @@ The pipeline processes raw data from source systems, stores it in a **Bronze lay
 ### Setup Instructions
 
 1. **Deploy ADF Pipelines**
-   - Import `pipeline_bronze.json` and `pipeline_silver.json` into your ADF instance.
+   - Import `ARMTemplateForFactory.json` and `ARMTemplateParametersForFactory.json` into your ADF instance.
    - Configure the `lookup_file.json` with the correct source paths.
 
 2. **Run Databricks Notebook**
